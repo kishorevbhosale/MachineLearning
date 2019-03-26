@@ -41,3 +41,5 @@ plt.plot(X_test, y_pred, color='red')
 plt.show()
 
 print("Mean Absolute Error : ",mean_absolute_error(y_test,y_pred))
+print('Mean Squared Error:', mean_squared_error(y_test, y_pred))  
+print('Root Mean Squared Error:', np.sqrt(mean_squared_error(y_test, y_pred)))
